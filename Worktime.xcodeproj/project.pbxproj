@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E513C2711EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513C2701EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift */; };
 		E597A86C1EBBD333008F0B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597A86B1EBBD333008F0B69 /* AppDelegate.swift */; };
 		E597A86E1EBBD333008F0B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597A86D1EBBD333008F0B69 /* ViewController.swift */; };
 		E597A8711EBBD333008F0B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E597A86F1EBBD333008F0B69 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E513C2701EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarWeekTableViewCell.swift; sourceTree = "<group>"; };
 		E597A8681EBBD333008F0B69 /* Worktime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Worktime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E597A86B1EBBD333008F0B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E597A86D1EBBD333008F0B69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E597A86B1EBBD333008F0B69 /* AppDelegate.swift */,
 				E597A86D1EBBD333008F0B69 /* ViewController.swift */,
 				E597A86F1EBBD333008F0B69 /* Main.storyboard */,
+				E513C2701EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift */,
 				E597A8721EBBD333008F0B69 /* Assets.xcassets */,
 				E597A8741EBBD333008F0B69 /* LaunchScreen.storyboard */,
 				E597A8771EBBD333008F0B69 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					E597A8671EBBD332008F0B69 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 77C54L8QQ7;
 						ProvisioningStyle = Automatic;
 					};
 					E597A87B1EBBD333008F0B69 = {
@@ -261,6 +265,7 @@
 			files = (
 				E597A86E1EBBD333008F0B69 /* ViewController.swift in Sources */,
 				E597A86C1EBBD333008F0B69 /* AppDelegate.swift in Sources */,
+				E513C2711EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77C54L8QQ7;
 				INFOPLIST_FILE = Worktime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UPE.Worktime;
@@ -422,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77C54L8QQ7;
 				INFOPLIST_FILE = Worktime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UPE.Worktime;
@@ -503,6 +510,7 @@
 				E597A8921EBBD333008F0B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E597A8931EBBD333008F0B69 /* Build configuration list for PBXNativeTarget "WorktimeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +519,7 @@
 				E597A8951EBBD333008F0B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E597A8961EBBD333008F0B69 /* Build configuration list for PBXNativeTarget "WorktimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				E597A8981EBBD333008F0B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
