@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WeekdayViewController.swift
 //  Worktime
 //
 //  Created by Ulrich Eitschberger on 04.05.17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WeekdayViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E513C2711EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513C2701EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift */; };
 		E597A86C1EBBD333008F0B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597A86B1EBBD333008F0B69 /* AppDelegate.swift */; };
-		E597A86E1EBBD333008F0B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597A86D1EBBD333008F0B69 /* ViewController.swift */; };
+		E597A86E1EBBD333008F0B69 /* WeekdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597A86D1EBBD333008F0B69 /* WeekdayViewController.swift */; };
 		E597A8711EBBD333008F0B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E597A86F1EBBD333008F0B69 /* Main.storyboard */; };
 		E597A8731EBBD333008F0B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E597A8721EBBD333008F0B69 /* Assets.xcassets */; };
 		E597A8761EBBD333008F0B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E597A8741EBBD333008F0B69 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		E513C2701EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarWeekTableViewCell.swift; sourceTree = "<group>"; };
 		E597A8681EBBD333008F0B69 /* Worktime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Worktime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E597A86B1EBBD333008F0B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E597A86D1EBBD333008F0B69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E597A86D1EBBD333008F0B69 /* WeekdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayViewController.swift; sourceTree = "<group>"; };
 		E597A8701EBBD333008F0B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E597A8721EBBD333008F0B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E597A8751EBBD333008F0B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				E597A86B1EBBD333008F0B69 /* AppDelegate.swift */,
-				E597A86D1EBBD333008F0B69 /* ViewController.swift */,
+				E597A86D1EBBD333008F0B69 /* WeekdayViewController.swift */,
 				E597A86F1EBBD333008F0B69 /* Main.storyboard */,
 				E513C2701EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift */,
 				E597A8721EBBD333008F0B69 /* Assets.xcassets */,
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E597A86E1EBBD333008F0B69 /* ViewController.swift in Sources */,
+				E597A86E1EBBD333008F0B69 /* WeekdayViewController.swift in Sources */,
 				E597A86C1EBBD333008F0B69 /* AppDelegate.swift in Sources */,
 				E513C2711EBCC33200FB7DF5 /* CalendarWeekTableViewCell.swift in Sources */,
 			);

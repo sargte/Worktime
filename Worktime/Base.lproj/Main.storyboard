@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="gUL-aB-H30">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CalendarWeekTableViewCell" id="gUL-aB-H30" customClass="CalendarWeekTableViewCell" customModule="Worktime" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gUL-aB-H30" id="0ol-be-n8g">
@@ -55,6 +55,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="weekNumber" destination="5RI-9i-fwy" id="hgx-Na-fPl"/>
+                                    <outlet property="workTime" destination="kJr-1z-e9X" id="9SJ-WB-tuS"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -68,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="502" y="-1854"/>
         </scene>
-        <!--View Controller-->
+        <!--Weekday View Controller-->
         <scene sceneID="KAV-4h-sAv">
             <objects>
-                <viewController id="TEC-OO-9r0" sceneMemberID="viewController">
+                <viewController id="TEC-OO-9r0" customClass="WeekdayViewController" customModule="Worktime" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bWl-nY-GVn"/>
                         <viewControllerLayoutGuide type="bottom" id="hNy-Ri-JHl"/>

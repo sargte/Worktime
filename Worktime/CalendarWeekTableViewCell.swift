@@ -10,6 +10,10 @@ import UIKit
 
 class CalendarWeekTableViewCell: UITableViewCell {
 
+    //MARK: Properties
+    @IBOutlet weak var weekNumber: UILabel!
+    @IBOutlet weak var workTime: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
